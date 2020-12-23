@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jesse {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid black;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+.jesse > h1 {
+    margin: 1rem;
+    text-decoration: underline black;
+}
+
+.jesse > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
